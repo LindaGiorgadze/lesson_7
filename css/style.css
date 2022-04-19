@@ -1,0 +1,48 @@
+.header {
+    width: 90%;
+    height: 100px;
+    background-color: darksalmon;
+    position: fixed;
+    top: 0;
+    right: 50%;
+    transform: translate(50%, 0);
+    z-index: 99;
+}
+.header li {
+    display: inline-block;
+    margin-right: 50px;
+}
+.normalFlow {
+    margin-top: 100px;
+    background-color: red;
+}
+.coverIMG {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+/* .position {
+    position: relative;
+} */
+.positionParent {
+    position: relative;
+    width: 90%;
+}
+.positionText {
+    position: absolute;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: bisque;
+}
+.sticky {
+    width: 300px;
+    background-color: brown;
+    padding: 30px;
+    border-radius: 30px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 9;
+}
